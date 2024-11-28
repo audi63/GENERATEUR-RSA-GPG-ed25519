@@ -1,0 +1,42 @@
+# Fichiers de l'environnement virtuel
+venv/
+.env/
+.venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build PyInstaller
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+*.debug
+
+# Configurations d'éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Autres fichiers inutiles
+*.tmp
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.~lock.*
+~$*
+
+# Clés SSH et fichiers sensibles
+*.pem
+*.key
+*.crt
+*.pfx
+*.pub
+
+
